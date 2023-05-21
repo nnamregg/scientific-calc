@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+button {
+    all: unset;
+}
+
+body {
+    background-color: #09090b;
+}
+
+header {
+    padding: 1.4rem 0;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+main {
+    margin: 10px;
+    padding: 5px 7px 5px;
+}
+
+input {
+    user-select: none;
+    pointer-events: none;
+    text-align: right;
+    background-color: #a7f3d0;
+    width: 97%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #27272a;
+    font-size: 30px;
+}
+
+table {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 20px;
+    background-color: #09090b;
+    border: 2px solid #27272a;
+    border-radius: 10px;
+}
+
+.displaytable {
+    display: table;
+}
+
+.displaytable-cell {
+    display: table-cell;
+}
+  
+.button {
+    width: 70px;
+    height: 45px;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #e4e4e7;
+    border: 1px solid #3f3f46;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button:hover {
+    background-color: #18181b;
+}
+
+.button:active {
+    color: #34d399;
+    border-color: #34d399;
+}
+
+.blackbutton { 
+    background-color: #27272a;
+    color: white;
+    border-color: #3f3f46;
+}
+
+.blackbutton:hover {
+    background-color: #3f3f46;
+}
+
+.greenbutton {
+    background-color: #18181b;
+}
+
+.greenbutton:hover {
+    background-color: #27272a;
+}
+
+.greybutton {
+    background-color: #a1a1aa;
+    color: #09090b;
+    border-color: #71717a;
+}
+
+.greybutton:hover {
+    background-color: #d4d4d8;
+}
+
+.greybutton:active {
+    color: #10b981;
+    border-color: #10b981;
+}
+
+.redbutton {
+    background-color: #ef4444;
+    color: #09090b;
+    border-color: #dc2626;
+}
+
+.redbutton:hover {
+    background-color: #f87171;
+}
+
+.redbutton:active {
+    color: #fff;
+    border-color: #fff;
+}
